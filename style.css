@@ -86,14 +86,14 @@ h {
 
 .reset {
 
-    height: 8vmin;
-    width: 22vmin;
-    border-radius: 2vmin;
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 1rem;
     border-width: 4px;
     border-top-color: #edb673;
     border-left-color: #edb673;
     font-size: 2.8vmin;
-    font-weight: 55000;
+    align-item:center;
 }
 
 .msg-container {
@@ -103,6 +103,7 @@ h {
     align-items: center;
     flex-direction: column;
     gap: 5vmin;
+    margin:5rem;
 }
 
 .hide {
