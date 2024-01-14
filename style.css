@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(45deg, #001514, rgb(25, 133, 161, 1));
+    text-align: center;
+}
+.home {
+    position: absolute;
+    right: 70vmin;
+    top: 30vmin;
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+#msg {
+    color: #fff;
+    font-size: 8vmin;
+    font-weight: 900;
+}
+
+.start-btn {
+    align-items: center;
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 1rem;
+    border-width: 4px;
+    border-top-color: #edb673;
+    border-left-color: #edb673;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game {
+    height: 70vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.box {
+    height: 17vmin;
+    width: 17vmin;
+    border-radius: 2vmin;
+    border-width: 3px;
+    border-top-color: #edb673;
+    border-bottom-color: #edb679b;
+    border-left-color: #edb673;
+    border-right-color: #edb67;
+    font-size: 5.5vmin;
+    background-color: #fff;
+    color:black;
+    box-shadow: 0 0 10px #26bf47;
+    
+}
+
+.box:hover {
+    background-color: #c9184a;
+    transition: all 0.8s ease-in-out;
+    transform: scale(1.1);
+}
+
+.reset {
+
+    height: 8vmin;
+    width: 22vmin;
+    border-radius: 2vmin;
+    border-width: 4px;
+    border-top-color: #edb673;
+    border-left-color: #edb673;
+    font-size: 2.8vmin;
+    font-weight: 55000;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vmin;
+}
+
+.hide {
+    display: none;
+}
+
+
+#confetti{
+    background: #000;
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+  }
+  
