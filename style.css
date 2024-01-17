@@ -86,8 +86,8 @@ h {
 }
 
 .box:hover {
-    background-color: #c9184a;
-    transition: all 0.8s ease-in-out;
+    background-color:#e48ce0c1;
+    transition: all 0.4s ease-in-out;
     transform: scale(1.1);
 }
 
