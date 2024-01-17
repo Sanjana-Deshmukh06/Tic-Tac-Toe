@@ -54,21 +54,25 @@ h {
 }
 
 .game {
-    height: 70vmin;
-    width: 60vmin;
+    height: 60vmin;
+    width: 70vmin;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1.5vmin;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-     box-shadow: 0 0 20px #bf26b7;
+    gap: 2vmin;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 20vmin;
+    padding-right: 20vmin;
+    box-shadow: 0 0 30px #bf26b7;
+    margin-top: 4vmin;
+    margin-bottom: 4vmin;
 }
 
 .box {
-    height: 17vmin;
-    width: 17vmin;
+    height: 14vmin;
+    width: 14vmin;
     border-radius: 2vmin;
     border-width: 3px;
     border-top-color: #edb673;
@@ -77,9 +81,8 @@ h {
     border-right-color: #edb67;
     font-size: 5.5vmin;
     background-color: #fff;
-    color:black;
+    color: black;
     box-shadow: 0 0 10px #26bf47;
-    
 }
 
 .box:hover {
@@ -91,7 +94,7 @@ h {
 .reset {
 
     height: 2.5rem;
-    width: 7rem;
+    width: 8rem;
     border-radius: 1rem;
     border-width: 4px;
     border-top-color: #edb673;
@@ -99,6 +102,7 @@ h {
     font-size: 2.8vmin;
     align-item:center;
     box-shadow: 0 0 10px #26bf47;
+    margin-top: 1vmin;
 }
 
 .msg-container {
@@ -125,4 +129,94 @@ h {
     width: 100%;
     z-index: -1;
   }
+/* respnsive media query started*/
+/* max width 600px*/
+@media only screen and (max-width:600px) {
+    .game {
+        width: 70vmin;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 80px;
+       margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .reset {
+       font-size: 4.5vmin;
+       font-weight: 480;
+    }
+}
+@media only screen and (max-width:600px) {
+    h {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+}
+/*min width 597px*/
+
+@media only screen and (min-width:597px) {
+    .game {
+        padding-left: 11px;
+        padding-right: 11px;
+        margin-top: 80px;
+       margin-bottom: 50px;
+    
+    }
+}
+@media only screen and (min-width:597px) {
+    .reset {
+        height: 4.5rem;
+        width: 12.5rem;
+        font-size: 4vmin;
+       font-weight: 480;
+    
+    
+    }
+}
+@media only screen and (min-width:597px) {
+    .start-btn {
+        height: 4.5rem;
+        width: 12.5rem;
+        font-size: 4vmin;
+       font-weight: 450;
+    }
+}
+@media only screen and (min-width:597px) {
+    h {
+        font-size: 8rem;
+        font-weight: 800;
+    }
+}
+/* 1980px*/
+@media only screen and (max-width:1980px) {
+    .game {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px;
+       margin-bottom: 10px;
+    
+    }
+}
+@media only screen and (max-width:1980px) {
+    h {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+}
+@media only screen and (max-width:1980px) {
+    .reset {
+        height: 2.7rem;
+        width: 9rem;
+        font-size: 3.4vmin;
+       font-weight: 400;
+    }
+}
+@media only screen and (max-width:1980px) {
+    .start-btn {
+        height: 2.7rem;
+        width: 9rem;
+        font-size: 3.4vmin;
+       font-weight: 400;
+    }
+}
   
