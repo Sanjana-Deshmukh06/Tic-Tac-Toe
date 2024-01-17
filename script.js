@@ -6,14 +6,16 @@ let msg = document.querySelector("#msg");
 
 let turnO = true;
 const winPatterns = [
-    [0, 1, 2],
-    [0, 3, 6],
-    [0, 4, 8],
-    [1, 4, 7],
-    [2, 5, 8],
-    [2, 4, 6],
-    [3, 4, 5],
-    [6, 7, 8],
+     [0, 1, 2, 3],
+    [0, 4, 8, 12],
+    [0, 5, 10, 15],
+    [1, 5, 9, 13],
+    [2, 6, 10, 14],
+    [3, 7, 11, 5],
+    [4, 5, 6, 7],
+    [8, 9, 10, 11],
+    [12, 13, 14, 15],
+    [3, 6, 9, 12],
 ]
 
 
@@ -62,9 +64,10 @@ const checkWinner = () => {
         let pos1val = boxes[pattern[0]].innerText;
         let pos2val = boxes[pattern[1]].innerText;
         let pos3val = boxes[pattern[2]].innerText;
+        let pos4val = boxes[pattern[3]].innerText;
 
-        if (pos1val != "" && pos2val != "" && pos3val != "") {
-            if (pos1val === pos2val && pos2val === pos3val) {
+        if (pos1val != "" && pos2val != "" && pos3val != "" && pos4val != "") {
+            if (pos1val === pos2val && pos2val === pos3val && pos3val === pos4val) {
                 showWinner(pos1val);
             }
         }
