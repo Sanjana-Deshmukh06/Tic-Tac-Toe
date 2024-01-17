@@ -21,6 +21,8 @@ body {
 h {
     font-size: 1.5rem;
     color: #fff;
+    font-weight:800;
+    box-shadow: 0 0 20px #26bf47;
 }
 
 
@@ -38,6 +40,7 @@ h {
     border-width: 4px;
     border-top-color: #edb673;
     border-left-color: #edb673;
+    box-shadow: 0 0 20px #26bf47;
 }
 
 .container {
@@ -60,6 +63,7 @@ h {
     gap: 1.5vmin;
     padding-top: 2rem;
     padding-bottom: 1rem;
+     box-shadow: 0 0 20px #bf26b7;
 }
 
 .box {
@@ -94,6 +98,7 @@ h {
     border-left-color: #edb673;
     font-size: 2.8vmin;
     align-item:center;
+    box-shadow: 0 0 10px #26bf47;
 }
 
 .msg-container {
