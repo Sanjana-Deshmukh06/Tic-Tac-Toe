@@ -6,7 +6,7 @@ let msg = document.querySelector("#msg");
 
 let turnO = true;
 const winPatterns = [
-     [0, 1, 2, 3],
+    [0, 1, 2, 3],
     [0, 4, 8, 12],
     [0, 5, 10, 15],
     [1, 5, 9, 13],
@@ -22,9 +22,13 @@ const winPatterns = [
 const resetGame = () => {
     turnO = true;
     enableBoxes();
+    boxes.forEach((box) => {
+        box.style.backgroundColor = "#fff";  // Set the initial color
+        box.innerText = "";  // Clear the "X" or "O" text
+        box.disabled = false; // Enable the box for clicking again
+    });
     msgContainer.classList.add("hide");
 };
-
 
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
@@ -35,8 +39,10 @@ boxes.forEach((box) => {
             box.innerText = "X";
             turnO = "true";
         }
+         box.style.backgroundColor ="#e48ce0c1"; 
         box.disabled = true;
         checkWinner();
+
     });
 });
 
@@ -59,6 +65,7 @@ const showWinner = (winner) => {
     disableBoxes();
 };
 
+
 const checkWinner = () => {
     for (let pattern of winPatterns) {
         let pos1val = boxes[pattern[0]].innerText;
@@ -70,9 +77,12 @@ const checkWinner = () => {
             if (pos1val === pos2val && pos2val === pos3val && pos3val === pos4val) {
                 showWinner(pos1val);
             }
+           
         }
     }
 };
+
+
 startBtn.addEventListener("click", resetGame);
 resetBtn.addEventListener("click", resetGame);
 
