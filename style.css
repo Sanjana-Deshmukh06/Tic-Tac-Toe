@@ -7,6 +7,7 @@ body {
     background: linear-gradient(45deg, #001514, rgb(25, 133, 161, 1));
     text-align: center;
 }
+
 .home {
     position: absolute;
     right: 70vmin;
@@ -21,8 +22,11 @@ body {
 h {
     font-size: 1.5rem;
     color: #fff;
-    font-weight:800;
+    font-weight: 800;
+    font-size: 6vmin;
     box-shadow: 0 0 20px #26bf47;
+    border-radius: 0.6rem;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
 }
 
 
@@ -41,6 +45,9 @@ h {
     border-top-color: #edb673;
     border-left-color: #edb673;
     box-shadow: 0 0 20px #26bf47;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 .container {
@@ -83,26 +90,25 @@ h {
     background-color: #fff;
     color: black;
     box-shadow: 0 0 10px #26bf47;
+    border: none;
 }
 
 .box:hover {
-    background-color:#e48ce0c1;
+    background-color: #ecd2d2;
     transition: all 0.4s ease-in-out;
     transform: scale(1.1);
 }
 
 .reset {
-
+cursor: pointer;
     height: 2.5rem;
     width: 8rem;
     border-radius: 1rem;
-    border-width: 4px;
-    border-top-color: #edb673;
-    border-left-color: #edb673;
     font-size: 2.8vmin;
-    align-item:center;
     box-shadow: 0 0 10px #26bf47;
     margin-top: 1vmin;
+    outline: none;
+    border: none;
 }
 
 .msg-container {
@@ -112,7 +118,7 @@ h {
     align-items: center;
     flex-direction: column;
     gap: 5vmin;
-    margin:5rem;
+    margin: 5rem;
 }
 
 .hide {
@@ -120,7 +126,7 @@ h {
 }
 
 
-#confetti{
+#confetti {
     background: #000;
     height: 100%;
     left: 0px;
@@ -128,7 +134,8 @@ h {
     top: 0px;
     width: 100%;
     z-index: -1;
-  }
+}
+
 /* respnsive media query started*/
 /* max width 600px*/
 @media only screen and (max-width:600px) {
@@ -137,21 +144,22 @@ h {
         padding-left: 15px;
         padding-right: 15px;
         margin-top: 80px;
-       margin-bottom: 50px;
+        margin-bottom: 50px;
     }
-}
-@media only screen and (max-width:600px) {
+
     .reset {
-       font-size: 4.5vmin;
-       font-weight: 480;
+        font-size: 4.5vmin;
+        font-weight: 480;
     }
-}
-@media only screen and (max-width:600px) {
+
     h {
         font-size: 3rem;
         font-weight: 800;
     }
 }
+
+
+
 /*min width 597px*/
 
 @media only screen and (min-width:597px) {
@@ -159,64 +167,58 @@ h {
         padding-left: 11px;
         padding-right: 11px;
         margin-top: 80px;
-       margin-bottom: 50px;
-    
+        margin-bottom: 50px;
+
     }
-}
-@media only screen and (min-width:597px) {
+
     .reset {
         height: 4.5rem;
         width: 12.5rem;
         font-size: 4vmin;
-       font-weight: 480;
-    
-    
+        font-weight: 480;
     }
-}
-@media only screen and (min-width:597px) {
+
     .start-btn {
         height: 4.5rem;
         width: 12.5rem;
         font-size: 4vmin;
-       font-weight: 450;
+        font-weight: 450;
     }
-}
-@media only screen and (min-width:597px) {
+
     h {
         font-size: 8rem;
         font-weight: 800;
     }
 }
+
+
+
+
 /* 1980px*/
 @media only screen and (max-width:1980px) {
     .game {
         padding-left: 20px;
         padding-right: 20px;
         margin-top: 20px;
-       margin-bottom: 10px;
-    
+        margin-bottom: 10px;
     }
-}
-@media only screen and (max-width:1980px) {
+
     h {
         font-size: 2rem;
         font-weight: 800;
     }
-}
-@media only screen and (max-width:1980px) {
+
     .reset {
         height: 2.7rem;
         width: 9rem;
         font-size: 3.4vmin;
-       font-weight: 400;
+        font-weight: 400;
     }
-}
-@media only screen and (max-width:1980px) {
+
     .start-btn {
         height: 2.7rem;
         width: 9rem;
         font-size: 3.4vmin;
-       font-weight: 400;
+        font-weight: 400;
     }
 }
-  
