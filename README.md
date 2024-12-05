@@ -58,4 +58,4 @@ For questions or suggestions, feel free to reach out:
 
 Email: sanjanadeshmukh30@gmail.com
 
-GitHub: Sanjana
+GitHub: Sanjana-Deshmukh
