@@ -52,11 +52,10 @@ Enhance UI/UX with animations and themes.
 Contributing 🤝
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
 
-License 📜
-This project is licensed under the MIT License.
 
 Contact 📧
 For questions or suggestions, feel free to reach out:
 
-Email: [your-email@example.com]
+Email: sanjanadeshmukh30@gmail.com
+
 GitHub: your-username
