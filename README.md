@@ -43,9 +43,7 @@ Players take turns selecting an empty cell to place their symbol.
 The first player to align three symbols in a row, column, or diagonal wins!
 If all cells are filled without a winner, the game ends in a draw.
 Technologies Used 🛠️
-[List the tools or libraries used, e.g., HTML/CSS, JavaScript, React, Python, etc.]
-Screenshots 📸
-Include screenshots or GIFs of your game here.
+HTML/CSS, JavaScript
 
 Future Enhancements 🔮
 Add an online multiplayer feature.
