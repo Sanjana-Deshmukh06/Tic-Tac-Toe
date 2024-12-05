@@ -3,6 +3,7 @@ Tic Tac Toe Game 🎮
 A simple implementation of the classic Tic Tac Toe game, built with JavaScript. Play against another player or challenge the computer!
 
 Features 🚀
+
 Two-player mode: Play with a friend locally.
 Single-player mode: Compete against an AI opponent.
 Responsive Design: Works seamlessly on desktop and mobile devices.
