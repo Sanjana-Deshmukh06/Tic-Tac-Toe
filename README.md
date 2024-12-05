@@ -13,7 +13,6 @@ Getting Started 🛠️
 Prerequisites
 Make sure you have the following installed:
 
-[List relevant tools, e.g., Python 3.8+, Node.js, etc.]
 Installation
 Clone the repository:
 
