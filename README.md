@@ -37,7 +37,7 @@ npm start  # For JavaScript/React
 python app.py  # For Python
 How to Play 🎲
 The game board consists of a 3x3 grid.
-Player 1 uses X, and Player 2 (or AI) uses O.
+Player 1 uses X, and Player 2 uses O.
 Players take turns selecting an empty cell to place their symbol.
 The first player to align three symbols in a row, column, or diagonal wins!
 If all cells are filled without a winner, the game ends in a draw.
