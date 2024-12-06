@@ -17,7 +17,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/tic-tac-toe.git
+git clone https://github.com/sanjanadeshmukh06/tic-tac-toe.git
 Navigate to the project folder:
 
 bash
