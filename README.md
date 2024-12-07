@@ -45,7 +45,6 @@ Technologies Used 🛠️
 HTML/CSS, JavaScript
 
 Future Enhancements 🔮
-Add an online multiplayer feature.
 Implement additional difficulty levels for the AI.
 Enhance UI/UX with animations and themes.
 Contributing 🤝
