@@ -5,7 +5,7 @@ A simple implementation of the classic Tic Tac Toe game, built with JavaScript. 
 Features 🚀
 
 Two-player mode: Play with a friend locally.
-Responsive Design: Works seamlessly on desktop and mobile devices..
+Responsive Design: Works seamlessly on desktop and mobile devices.
 Interactive UI: Simple and user-friendly game interface.
 Winner Detection: Automatically identifies when a player wins or the game ends in a tie.
 Getting Started 🛠️
